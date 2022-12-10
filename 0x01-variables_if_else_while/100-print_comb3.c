@@ -15,7 +15,7 @@ int main(void)
 	for (tens = '0'; tens <= '9'; tens++)/* prints tens digit*/
 	{
 
-	for (ones = '0'; ones <= '9'; ones++)/* prints ones digit*/
+		for (ones = '0'; ones <= '9'; ones++)/* prints ones digit*/
 		{
 			if (!((ones == tens) || (tens > ones)))/*eliminates repitition*/
 			{
