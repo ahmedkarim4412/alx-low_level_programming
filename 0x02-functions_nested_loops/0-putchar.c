@@ -1,19 +1,14 @@
-#include "holberton.h"
+
 /**
- * main - Entry point
+ * _putchar - writes the character c to stdout
+ * @c: The character to spring
  *
- * Return: Always 0 (Success)
+ * Return: On success 1.
+ * On error, -1 is retruned, and error is set appropraitly.
+ *
  */
-int main(void)
+
+int _putchar(char c)
 {
-	char *sh = "Holberton";
-
-	while (*sh)
-	{
-		_putchar(*sh);
-		sh++;
-	}
-	_putchar('\n');
-
-	return (0);
+	return (write(1, &c, 1));
 }
