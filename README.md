@@ -1,1 +1,1 @@
-this is a repository on C programing language
+0x02. C - Functions, nested loops
