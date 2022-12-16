@@ -1,13 +1,12 @@
 #include "main.h"
 /**
- * mul - returns the product of its parameters
- * @a: int type number
- * @b: int type number
- * Return:0
+ * _isdigit - check for a digit
+ * @c : character to check
+ * Return:0 or 1
  */
 
-
-int mul(int a, int b)
+int _isdigit(int c)
 {
-	return (a * b);
+	return (c >= 48 && c <= 57);
+
 }
