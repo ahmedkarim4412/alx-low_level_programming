@@ -2,7 +2,7 @@
 /**
  * *_strncat - concatenates n bytes of two strings
  * @dest: pointer destination
- * @src: pointer source
+ * @src: pointer source.
  * @n: number of bytes
  * Return: void
 */
